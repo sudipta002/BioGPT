@@ -5,6 +5,8 @@ DATA_DIR=../../data/PubMedQA
 prefix=ansis
 RAW_DATA_DIR=${DATA_DIR}/raw
 OUTPUT_DIR=${DATA_DIR}/${prefix}-bin
+MOSES=../../mosesdecoder
+FASTBPE=../../fastBPE
 
 if [ -d "${OUTPUT_DIR}" ]; then
     rm -rf ${OUTPUT_DIR}
